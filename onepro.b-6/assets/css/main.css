@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: yellow;
+}
+
+.iconandp {
+  display: flex;
+  gap: 30px;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 90%;
+  padding-top: 10px;
+}
+.container nav .collapsediv {
+  justify-content: flex-end;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.telephoneicon {
+  padding-bottom: 12px;
+}
+
+.mailicon {
+  padding-bottom: 12px;
+}
+
+.socialmediadiv {
+  display: flex;
+  gap: 20px;
+  width: 200px;
+  justify-content: space-between;
+  justify-content: flex-end;
+}
+
+.socialmediap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialmedia {
+  width: 100px;
+  font-size: 18px;
+  background-color: rgb(156, 153, 153);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 24px;
+}
+
+.navli {
+  color: #333333;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+
+.compdiv {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/slide-1\ \(1\).jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.projectsbtn {
+  background-color: #28B6E8;
+  color: white;
+  border: none;
+  width: 220px;
+  height: 54px;
+  border-radius: 6px;
+}
+
+.businnesDiv {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 500px;
+  gap: 20px;
+}
